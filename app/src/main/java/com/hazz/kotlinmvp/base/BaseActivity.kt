@@ -68,7 +68,7 @@ abstract class BaseActivity : AppCompatActivity(),EasyPermissions.PermissionCall
 
 
     /**
-     * 打卡软键盘
+     * 打开软键盘
      */
     fun openKeyBord(mEditText: EditText, mContext: Context) {
         val imm = mContext.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
